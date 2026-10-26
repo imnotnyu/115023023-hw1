@@ -1,3 +1,3 @@
 def temperature_category(temperature):
     # Write your code here
-    return None
+    return "Fever" if temperature >= 37.5 else "Normal"
